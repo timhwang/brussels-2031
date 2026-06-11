@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Source for og-image.png. Regenerate with:
+     chrome --headless=new --screenshot=og-image.png --window-size=1200,630 \
+            --hide-scrollbars --virtual-time-budget=5000 file://$(pwd)/og.html -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 630px;
+    background: #003399;
+    color: #faf7f0;
+    font-family: "Inter", system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    padding: 0 72px;
+    overflow: hidden;
+  }
+  .text { flex: 1 1 auto; }
+  .kicker {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #ffcc00;
+    margin-bottom: 22px;
+  }
+  h1 {
+    font-size: 110px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    margin-bottom: 26px;
+  }
+  .dek {
+    font-size: 27px;
+    line-height: 1.45;
+    opacity: 0.93;
+    max-width: 560px;
+  }
+  .panel {
+    flex: 0 0 380px;
+    background: #fff;
+    color: #1a1a2e;
+    border-radius: 16px;
+    padding: 26px 28px 22px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);
+  }
+  .panel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .panel-head h4 {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8a8a99;
+  }
+  .panel-period {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 14px;
+    font-weight: 600;
+    color: #003399;
+  }
+  svg { display: block; width: 100%; height: auto; }
+  .note {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8a8a99;
+  }
+</style>
+</head>
+<body>
+  <div class="text">
+    <p class="kicker">A scenario for the harmonised future</p>
+    <h1>Brussels<br>2031</h1>
+    <p class="dek">A five-year scenario in which Europe gets artificial intelligence exactly&nbsp;right.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head">
+      <h4>Regulation overview</h4>
+      <span class="panel-period">2025–2031</span>
+    </div>
+    <svg viewBox="0 0 324 170">
+      <line x1="8" y1="146" x2="316" y2="146" stroke="rgba(26,26,46,.25)"/>
+      <text x="14" y="164" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8a8a99">’25</text>
+      <text x="160" y="164" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8a8a99">’28</text>
+      <text x="296" y="164" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#8a8a99">’31</text>
+      <line x1="290" y1="10" x2="290" y2="146" stroke="rgba(26,26,46,.3)" stroke-dasharray="4 4"/>
+      <!-- pages of AI rules -->
+      <path d="M8 132 L60 116 L112 96 L164 78 L216 56 L264 34 L290 20"
+            fill="none" stroke="#003399" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="8" cy="132" r="4" fill="#003399"/>
+      <circle cx="112" cy="96" r="4" fill="#003399"/>
+      <circle cx="216" cy="56" r="4" fill="#003399"/>
+      <circle cx="290" cy="20" r="5.5" fill="#003399"/>
+      <!-- gigawatts, same axis -->
+      <path d="M8 145.6 L150 145.4 L218 145.3 L256 145.5 L290 145.5"
+            fill="none" stroke="#c9a200" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="290" cy="145.5" r="5.5" fill="#c9a200"/>
+    </svg>
+    <p class="note">Pages of AI rules vs gigawatts of compute, one shared axis. The gold line along the bottom is the gigawatts.</p>
+  </div>
+</body>
+</html>
